@@ -38,6 +38,13 @@
       "plugin:vue/strongly-recommended",
       "@vue/standard"
     ],
+    "plugins": [
+      "vue"
+    ],
+    "rules": {
+      "no-mixed-spaces-and-tabs": "off",
+      "no-tabs": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
@@ -50,7 +57,7 @@
       },
       "postcss-cssnext": {},
       "postcss-px-to-viewport": {
-        "viewportWidth": 750,
+        "viewportWidth": 375,
         "unitPrecision": 3,
         "viewportUnit": "vw",
         "selectorBlackList": [

@@ -1,14 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import ppp from '@/views/ppp.vue'
+import indexPage from '@/views/index/index'
+
 Vue.use(Router)
 
 export default new Router({
-  // routes: [
-  //   {
-  //     path: '/',
-  //     name: 'ppp',
-  //     component: ppp
-  //   }
-  // ]
+  routes: [
+    {
+      path: '/',
+      name: 'indexPage',
+      component: indexPage
+    }
+  ]
 })
